@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S+Guides:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-image: url(./assets/background-image.jpg);
+  background-size: contain;
+}
+
+body {
+  font-family: "Playwrite GB J", cursive;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(34, 33, 33, 0.295);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  font-family: "Love Ya Like A Sister", cursive;
+  justify-self: center;
+  color: white;
+}
+
+#todo-input {
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-radius: 20px;
+  width: 90%;
+  height: 40px;
+  margin: 15px 0;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  padding-left: 12px;
+}
+
+#todo-input:hover {
+  transform: scale(1.01);
+}
+
+#todo-input::placeholder {
+  padding-left: 2px;
+  font-size: 16px;
+  color: white;
+}
+
+#add-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  background-image: url(./assets/plus.png);
+  filter: brightness(0) invert(1);
+  background-size: contain;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  padding: 8px;
+}
+
+#add-btn:hover {
+  transform: scale(1.2);
+}
+
+.li-edit {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background-color: rgba(172, 179, 125, 0.667);
+  padding: 4px 7px;
+  margin: 5px 0;
+  border-radius: 12px;
+
+  width: 100%;
+}
+
+.li-edit span {
+  flex: 1;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.btnGrp-buttons {
+  margin-left: auto;
+  display: flex;
+  gap: 5px;
+  flex-shrink: 0;
+}
+
+.delete-btn,
+.edit-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.delete-btn img,
+.edit-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+  transform: scale(1.2);
+}
