@@ -36,8 +36,9 @@ ToDo-List
 
 <img src="assets/screenshot.png">
 
+### CODE SNIPPET
+
 <p align="center">
-#--> <b>CODE SNIPPET</b>
   <img src="assets/code-snippet1.png" width="350" style="margin-right:10px;">
   <img src="assets/code-snippet2.png" width="350">
 </p>
