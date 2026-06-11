@@ -38,9 +38,9 @@ ToDo-List
 
 ### CODE SNIPPET
 
-<p align="center" style="display:flex; justify-content:center; gap:20px;">
-  <img src="assets/code-snippet1.png" width="350">
-  <img src="assets/code-snippet2.png" width="350">
+<p align="center" style="display:flex; justify-content: space-between; gap:20px;">
+  <img src="assets/code-snippet1.png" width="350"; height="450">
+  <img src="assets/code-snippet2.png" width="350"; height="450">
 </p>
 
 ## 🎯 Future Improvements
