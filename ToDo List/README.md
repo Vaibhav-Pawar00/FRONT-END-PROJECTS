@@ -33,15 +33,15 @@ ToDo-List
 ## 📸 Screenshot
 
 ```
-![Todo Code Snippet](./assets/code-snippet1.png)
+![Todo Code Snippet](assets/code-snippet1.png)
 ```
 
 ```
-![Todo Code Snippet](./assets/code-snippet2.png)
+![Todo Code Snippet](assets/code-snippet2.png)
 ```
 
 ```
-![ToDo List Screenshot](./assets/screenshot.png)
+![ToDo List Screenshot](assets/screenshot.png)
 ```
 
 ## 🎯 Future Improvements
