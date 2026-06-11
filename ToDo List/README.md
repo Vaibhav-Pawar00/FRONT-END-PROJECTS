@@ -30,13 +30,19 @@ ToDo-List
     └── README.md       # Project documentation
 ```
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-![ToDo List Screenshot](assets/screenshot.png)
+### Main Page
 
-![Todo Code Snippet](assets/code-snippet1.png)
+<img src="assets/screenshot.png" width="400">
 
-![Todo Code Snippet](assets/code-snippet2.png)
+### Code Snippet 1
+
+<img src="assets/code-snippet1.png" width="400">
+
+### Code Snippet 2
+
+<img src="assets/code-snippet2.png" width="400">
 
 ## 🎯 Future Improvements
 
