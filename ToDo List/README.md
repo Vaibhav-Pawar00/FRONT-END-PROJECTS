@@ -34,15 +34,13 @@ ToDo-List
 
 ### Main Page
 
-<img src="assets/screenshot.png" width="400">
+<img src="assets/screenshot.png">
 
-### Code Snippet 1
-
-<img src="assets/code-snippet1.png" width="400">
-
-### Code Snippet 2
-
-<img src="assets/code-snippet2.png" width="400">
+<p align="center">
+#--> <b>CODE SNIPPET</b>
+  <img src="assets/code-snippet1.png" width="350" style="margin-right:10px;">
+  <img src="assets/code-snippet2.png" width="350">
+</p>
 
 ## 🎯 Future Improvements
 
