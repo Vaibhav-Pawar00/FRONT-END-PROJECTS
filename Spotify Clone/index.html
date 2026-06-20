@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="left-sidebar">
+        <div id="sticky-leftnav">
+          <div class="nav-home">
+            <div class="nav-option" style="opacity: 1">
+              <i class="fa-solid fa-house"></i>
+              <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <a href="#">Search</a>
+            </div>
+          </div>
+
+          <div class="library">
+            <div class="options">
+              <div class="lib-option nav-option">
+                <img src="./assets/library_icon.png" alt="" />
+                <a href="#">Your Library</a>
+              </div>
+
+              <div class="icons">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="playlist-tag">
+            <a href="#"><b>Playlists</b></a>
+          </div>
+        </div>
+
+        <div class="songs-playlist">
+          <div class="search-recent">
+            <div class="search-icon">
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="recent">
+              <a href="#">Recents</a>
+              <i class="fa-solid fa-list"></i>
+            </div>
+          </div>
+
+          <div class="song-info">
+            <div id="playlist" class="liked-song">
+              <a href="#liked-song">
+                <img src="./assets/liked-song.png" alt="" style="opacity: 1" />
+                <div class="playlistname" id="only-liked" style="opacity: 1">
+                  <h6>Liked Songs</h6>
+                  <div class="song-name">
+                    <i class="fa-solid fa-thumbtack"></i>
+                    <p>Playlist <b>&middot;</b> 48 Songs</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="playlist" class="playlist1">
+              <a href="#playlist1">
+                <img src="./assets/HS-playlist.png" alt="" />
+                <div class="playlistname">
+                  <h6>Yo Yo Honey Singh Old Hits</h6>
+                  <div class="song-name">
+                    <p>Playlist <b>&middot;</b> $xyz</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="playlist" class="playlist2">
+              <a href="#playlist2">
+                <img src="./assets/Soothing-playlist.png" alt="" />
+                <div class="playlistname">
+                  <h6>Soothing</h6>
+                  <div class="song-name">
+                    <p>Playlist <b>&middot;</b> $jkl</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="playlist" class="playlist3">
+              <a href="#playlist3">
+                <img src="./assets/OS-playlist.png" alt="" />
+                <div class="playlistname">
+                  <h6>Old Songs</h6>
+                  <div class="song-name">
+                    <p>Playlist <b>&middot;</b> $abc</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="playlist" class="playlist4">
+              <a href="#playlist4">
+                <img src="./assets/top-english-playlist.png" alt="" />
+                <div class="playlistname">
+                  <h6>Top English Playlist</h6>
+                  <div class="song-name">
+                    <p>Playlist <b>&middot;</b> Spotify</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="playlist" class="playlist5">
+              <a href="#playlist5">
+                <img src="./assets/workout.jpg" alt="" />
+                <div class="playlistname">
+                  <h6>Workout</h6>
+                  <div class="song-name">
+                    <p>Playlist <b>&middot;</b> $pqr</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="playlist" class="playlist6">
+              <a href="#playlist6">
+                <img src="./assets/card1img.jpeg" alt="" />
+                <div class="playlistname">
+                  <h6>Top 50 - Global</h6>
+                  <div class="song-name">
+                    <p>Playlist <b>&middot;</b> Spotify</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="left-footer"></div>
+      </div>
+
+      <div class="main-content">
+        <div class="sticky-maincontent">
+          <div class="upper-sticky-div">
+            <div class="upper-leftsticky-icons">
+              <img class="photo1" src="./assets/backward_icon.png" alt="" />
+              <img class="photo2" src="./assets/forward_icon.png" alt="" />
+            </div>
+
+            <div class="upper-rightsticky-options">
+              <button class="badge1">Explore Premium</button>
+              <button class="badge2">
+                <i class="fa-regular fa-circle-down"></i>Install App
+              </button>
+              <i id="right-stickylogo" class="fa-regular fa-bell"></i>
+              <i id="right-stickylogo" class="fa-regular fa-user"></i>
+            </div>
+          </div>
+
+          <div class="lower-sticky-div">
+            <button class="lowerbadge1">All</button>
+            <button class="lowerbadge">Music</button>
+            <button class="lowerbadge">Podcasts</button>
+          </div>
+        </div>
+
+        <section class="content-sec-1">
+          <div class="playlistsongs">
+            <img src="./assets/liked-song.png" alt="" />
+            <h5>Liked Songs</h5>
+          </div>
+          <div class="playlistsongs">
+            <img src="./assets/HS-playlist.png" alt="" />
+            <h5>Honey Singh</h5>
+          </div>
+          <div class="playlistsongs">
+            <img src="./assets/bellaciao.png" alt="" />
+            <h5>La casa de papel</h5>
+          </div>
+          <div class="playlistsongs">
+            <img src="./assets/HHPub.jpg" alt="" />
+            <h5>Hot Hits Punjab</h5>
+          </div>
+          <div class="playlistsongs">
+            <img src="./assets/workout.jpg" alt="" />
+            <h5>Workout</h5>
+          </div>
+          <div class="playlistsongs">
+            <img src="./assets/Soothing-playlist.png" alt="" />
+            <h5>Soothing</h5>
+          </div>
+          <div class="playlistsongs">
+            <img src="./assets/OS-playlist.png" alt="" />
+            <h5>Old Songs</h5>
+          </div>
+          <div class="playlistsongs">
+            <img src="./assets/top-english-playlist.png" alt="" />
+            <h5>Top English Hits</h5>
+          </div>
+        </section>
+
+        <h2>Recently Played</h2>
+        <section class="recently-played">
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/card1img.jpeg" alt="" />
+              <p class="card-title">Top 50 - Global</p>
+              <p class="card-info">
+                Your daily update of most played tracks...
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <h2>Made For You</h2>
+        <section class="made-for-u">
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/dailymix1.png" alt="" />
+              <p class="card-title">Daily Mix 1</p>
+              <p class="card-info">
+                Pritam, Yo Yo Honey Singh, Arijit Singh....
+              </p>
+            </div>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/dailymix2.png" alt="" />
+              <p class="card-title">Daily Mix</p>
+              <p class="card-info">Yo Yo Honey Singh, Shubh, Riar Saab....</p>
+            </div>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/dailymix3.png" alt="" />
+              <p class="card-title">Daily Mix 3</p>
+              <p class="card-info">
+                Devdutta Manisha Baji, Deepanshi Nagar,....
+              </p>
+            </div>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/dailymix4.png" alt="" />
+              <p class="card-title">Daily Mix 4</p>
+              <p class="card-info">Avadhooth Gandhi ,Devdutta Manisha Baj...</p>
+            </div>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/dailymix5.png" alt="" />
+              <p class="card-title">Daily Mix 5</p>
+              <p class="card-info">Libianca, JAE5, NSG and more</p>
+            </div>
+          </div>
+        </section>
+
+        <h2>Trending now near you</h2>
+        <section class="trending-now">
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/card2img.jpeg" alt="" />
+              <p class="card-title">Mahiye Jinna Sohna</p>
+              <p class="card-info">Darshan Raval</p>
+            </div>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/card3img.jpeg" alt="" />
+              <p class="card-title">Pasoori Nu</p>
+              <p class="card-info">Arijit Singh, Rochak Kohli, Tulsi Kunmar</p>
+            </div>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/card4img.jpeg" alt="" />
+              <p class="card-title">Naa Ready</p>
+              <p class="card-info">
+                Anirudh Ravichander, Thalapathy Vijay, Asal...
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <h2>Featured Charts</h2>
+        <section class="featured-charts">
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/card5img.jpeg" alt="" />
+              <p class="card-title">Top Global</p>
+              <p class="card-info">
+                Your daily update of most played tracks...
+              </p>
+            </div>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/card6img.jpeg" alt="" />
+              <p class="card-title">Top Songs - India</p>
+              <p class="card-info">
+                Your daily update of most played tracks...
+              </p>
+            </div>
+          </div>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./assets/card1img.jpeg" alt="" />
+              <p class="card-title">Top 50 - Global</p>
+              <p class="card-info">
+                Your daily update of most played tracks...
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="right-sidebar">
+        <div class="upper-right-sidebar">
+          <div class="upper-left">
+            <h2>Liked Songs</h2>
+          </div>
+          <div class="upper-right">
+            <i class="fa-solid fa-ellipsis"></i>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+
+        <div class="lower-right-sidebar">
+          <div class="img-song">
+            <img src="./assets/pinjara.png" alt="" />
+          </div>
+
+          <div class="songname-artist">
+            <div class="son-infoo">
+              <div class="songname"><h2>Pinjraa</h2></div>
+              <div class="artistname"><h5>Gurnazar</h5></div>
+            </div>
+            <div class="logo">
+              <i class="fa-solid fa-circle-check" style="color: #05d655"></i>
+            </div>
+          </div>
+
+          <div class="about-the-artist">
+            <h4>About the Artist</h4>
+            <img src="./assets/gurnazar-artist.png" alt="" />
+            <h5 class="artistname-gur">Gurnazar</h5>
+            <div class="followbtn">
+              <h5>2,415,152 monthly <br />listner</h5>
+              <button><b>Follow</b></button>
+            </div>
+            <div class="artist-infor">
+              <h5 class="artist-text">
+                Gurnazar Chattha - the immensely gifted artist has changed the
+                music and nightlife scenario all over....
+              </h5>
+            </div>
+          </div>
+
+          <div class="credits">
+            <div class="upper-part-credits">
+              <h4>Credits</h4>
+              <h4 class="showall">Show all</h4>
+            </div>
+
+            <div class="name-follow">
+              <div class="name-artist">
+                <div><h4 class="abc-gurnazar">Gurnazar</h4></div>
+                <div><h4 class="lightshade">Main Artist</h4></div>
+              </div>
+              <div class="lower-follow-btn">
+                <button><b>Follow</b></button>
+              </div>
+            </div>
+
+            <div class="composer">
+              <div><h4>B Praak</h4></div>
+              <div><h5>Composer</h5></div>
+            </div>
+
+            <div class="composer">
+              <div><h4>Jaani</h4></div>
+              <div><h5>Lyricist</h5></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-sidebar-footer"></div>
+      </div>
+
+      <div class="music-player">
+        <div class="album">
+          <img src="./assets/pinjara.png" alt="" />
+          <div class="bottom-song-name">
+            <div><h4>Pinjraa</h4></div>
+            <div><h5>Gurnazar</h5></div>
+          </div>
+          <i class="fa-solid fa-circle-check" style="color: #05d655"></i>
+        </div>
+
+        <div class="player">
+          <div class="uppper-player">
+            <img src="./assets/player_icon1.png" alt="" />
+            <img src="./assets/player_icon2.png" alt="" />
+            <img
+              src="./assets/play_musicbar.png"
+              alt=""
+              style="opacity: 1; height: 2rem"
+            />
+            <img src="./assets/player_icon4.png" alt="" />
+            <img src="./assets/player_icon5.png" alt="" />
+          </div>
+          <div class="lowerr-player">
+            <span class="curr-time">00:00</span>
+            <input type="range" min="0" max="100" class="progress-bar" />
+            <span class="tot-time">4:19</span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <img src="./assets/controls_icon1.png" alt="" />
+          <img src="./assets/controld_icon2.png" alt="" />
+          <img src="./assets/controls_icon3.png" alt="" />
+          <img
+            src="./assets/controls_icon4.png"
+            alt=""
+            style="height: 1.2rem; width: 1.2rem"
+          />
+          <img src="./assets/controls_icon5.png" alt="" />
+          <input type="range" min="0" max="100" class="sound-bar" />
+          <img src="./assets/album_icon2.png" alt="" />
+          <i
+            class="fa-solid fa-up-right-and-down-left-from-center"
+            style="padding-left: 1rem"
+          ></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
